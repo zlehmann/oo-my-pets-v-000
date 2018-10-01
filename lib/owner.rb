@@ -84,7 +84,7 @@ class Owner
     fish = @pets[:fishes].length
     cats = @pets[:cats].length
     dogs = @pets[:dogs].length
-    puts "I have #{fish} fish, #{dogs} dog(s), and #{cats} cat(s)."
+    return "I have #{fish} fish, #{dogs} dog(s), and #{cats} cat(s)."
   end
 
 
