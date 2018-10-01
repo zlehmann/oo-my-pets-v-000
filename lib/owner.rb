@@ -83,11 +83,11 @@ class Owner
   def list_pets
     fish, cats, dogs = 0
     @pets.each_pair do |pet_type, value|
-      if pet_type == :fishes
+      if pet_type == ":fishes"
         fish = value.length
-      elsif pet_type == :dogs
+      elsif pet_type == ":dogs"
         dogs = value.length
-      elsif pet_type == :cats
+      elsif pet_type == ":cats"
         cats = value.length
       end
     end
